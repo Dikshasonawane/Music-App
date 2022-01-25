@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <script src="https://kit.fontawesome.com/070428bd88.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main1"></div>
+            <div class="contanier">
+                <h2 class="text">Now Playing</h2>
+                <h3 class="text1">Songs</h3>
+                <audio class="Audio">
+                    <source src="audio.mp3" type="audio/ogg">
+                </audio>
+                <audio class="Audio1">
+                    <source src="ym.mp3" type="audio/ogg">
+                </audio>
+                <audio class="Audio2">
+                    <source src="frd.mp3" type="audio/ogg">
+                </audio>
+
+                <img id="imgs" src="5.jpg" alt="Avatar">
+                <h3 class="m">--------Maroon5---------</h3>
+                <h4 class="s">Memories</h4>
+                <div class="btn">
+                    <button onclick="playAudio1()" class="seconderyBtn"><i class="fa fa-step-backward"></i></button>
+                    <button onclick="playAudio()" class="btn-pl"><i class="fa fa-play"></i></button>
+                    <button onclick="audiopause()" class="btn-pl"><i class="fas fa-pause"></i></button>
+                    <button onclick="playAudio2()" id="next" class="seconderyBtn"><i
+                            class="fa fa-step-forward"></i></button>
+                
+            </div>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

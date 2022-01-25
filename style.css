@@ -1,0 +1,115 @@
+body{
+    display:flex ;
+    justify-content: center;
+}
+.main{
+    background-color: #8f88df;
+    height:550px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 30px;
+    position: absolute;
+    transform: translate(-50%,-50% 50% 50%);
+    box-shadow: 0 25px 35px rgb(132, 132, 241) ;
+    overflow: hidden;
+    
+}
+.main1{
+    height: 800px;
+    width: 750px;
+    position: absolute;
+
+    background: conic-gradient(
+        #fd004c,
+        #fe9000,
+        #fff020,
+        #3edf4b,
+        #3363ff,
+        #b102b7,
+        #fd004c);
+       
+        top: -25%;
+        animation:spin 3.5s infinite linear ;
+        
+}
+@keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.contanier{
+     height: 520px;
+    width: 280px;
+    position: relative;
+    background-color: #a7dce9;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px #4130ff4b;
+    color: #203250;
+     /* background-image: url(bg.jpg); */
+     margin-top: 15px;
+}
+.text{
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+}
+.text1{
+    text-align: center;
+    padding-top:5px;
+    color: blue;   
+}
+img{
+    width:200px;
+    height:200px;
+    border-radius: 2000px;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-size: cover;
+    background-position:none ;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 50px blue;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.s{
+    text-align: center;
+    color: rgb(187, 45, 45);
+}
+
+.seconderyBtn{
+    font-size: 22px;
+    color: #203250;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    width:70px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+   
+}
+  .btn-pl{
+    font-size: 22px;
+    border: none;
+     outline: none; 
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #4030FF;
+    box-shadow: 10px 10px 32px #4130ff85;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}  
+.m{
+    text-align: center;
+    color: #46556e;
+}
